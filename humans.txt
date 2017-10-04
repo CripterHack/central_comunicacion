@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology
+Izigna Mx 2015
+Start-up freelancer
+# TEAM
+
+    Edgar Zorrilla - Designer Front-End & Developer edgar@izigna.mx edgar.zorrilla@openmailbox.org
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY
+
+    HTML5, CSS3, Javascript, PHP, NodeJs
+    jQuery, Modernizr, HTML5shiv, animateCss, font awesome
+    Bootstrap, Initializr...

@@ -1,0 +1,86 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-MX"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es-MX"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="es-MX"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-MX"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Izigna Mx, Designer Front-End Edgar Zorrilla">
+    <meta name="copyright" content="Central Comunicación" />
+    <meta name="robots" content="all, follow" />
+    <meta name="google" content="notranslate">
+    <meta name="distribution" content="global"/>
+    <link rev="made" href="mailto:contacto@izigna.mx">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Central Comunicación | Próximamente</title>
+    <link rel="apple-touch-icon" href="assets/img/apple.png">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="assets/img/icon-logo.png" type="image/png">
+    <link rel="shortcut icon" href="assets/img/icon-logo.jpg" type="image/jpeg">
+    <link rel="shortcut icon" href="assets/img/icon-logo.gif" type="image/gif">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="assets/css/assets/noscript.min.css" />
+    </noscript>
+    <script src="assets/modernizr.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div class="col-md-12 both">
+        <img class="col-md-2 col-xs-4 logo-loader animated fadeIn option2" src="assets/img/logoB.png" alt="Central Comunicacion Logotipo">
+        <img src="assets/img/oval.svg" alt="cargando" title="cargando, por favor espere" id="loader" class="loader">
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- Header -->
+      <header class="cd-header">
+        <nav role="navigation" class="menuNav">
+            <ul style="position: relative; visibility: visible" class="nav_max">
+                <li><a href="beta.html">ALPHA</a>
+                </li>
+                <li><a href="brand/identidad/Central Comunicación.pdf">IDENTIDAD GRÁFICA</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="cd-primary-nav-trigger" href="#0"><span class="cd-menu-icon"></span></a>
+        <nav class="responsive-menu nav_min" data-state="close">
+            <ul class="no-padd">
+                <li class="cd-primary-nav"><a href="beta.html">ALPHA</a>
+                </li>
+                <li class="cd-primary-nav"><a href="brand/identidad/Central Comunicación.pdf">IDENTIDAD GRÁFICA</a>
+                </li>
+            </ul>
+        </nav>
+      </header>
+    <!-- Intro - Home -->
+    <main>
+      <section>
+        <div id="soon">
+          <div class="col-md-12 no-padd both soon-pic">
+            <img style="max-width:187px;" src="assets/img/logo.png" alt="Logotipo Central" title="Central Comunicación" />
+          </div>
+          <div class="col-md-12 both soon-text text-center">
+            <h1 class="no-padd no-margin text-center black">
+              Próximamente
+            </h1>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/main.min.js"></script>
+    <script type="text/javascript">
+    $('body').addClass('loaded');
+    </script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="assets/js/assets/selectivizr-min.js"></script>
+    <![endif]--> 
+    </body>
+</html>
