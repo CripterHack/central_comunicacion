@@ -1,0 +1,32 @@
+<?php
+$email = 'contacto@izigna.mx';
+$subject = 'Formulario contacto FEW';
+
+    $aviso = "";
+    if ($_POST['email'] != "") {
+
+        $mensaje.= "---------------------------------- \n";
+        $mensaje.= "        Datos de Formulario        \n";
+        $mensaje.= "---------------------------------- \n";
+        $mensaje.= "NOMBRE:    ".$_POST['name']."\n";
+        $mensaje.= "CORREO:    ".$_POST['email']."\n";
+        $mensaje.= "TELEFONO:  ".$_POST['tel']."\n";
+        $mensaje.= "MENSAJE:   ".$_POST['message']."\n";
+        $mensaje.= "FECHA:     ".date("d/m/Y")."\n";
+        $mensaje.= "HORA:      ".date("h:i:s a")."\n";
+        $mensaje.= "IP:        ".$_SERVER['REMOTE_ADDR']."\n\n";
+        $mensaje.= "---------------------------------- \n\n";
+        $mensaje.= $_POST['message']."\n\n";
+        $mensaje.= "---------------------------------- \n";
+
+        $headers = "From: ".$_POST['email']."\r\n";
+        if (mail($email, $subject, $mensaje, $headers)) {
+            $aviso = "Su mensaje fue enviado.";  
+            echo"<script>alert('Su mensaje fue enviado'); window.location='http://ellenwest.org/';</script>";
+        } else {
+            $aviso = "Error de envío.";
+            echo $aviso;
+        }
+    }
+
+?>
